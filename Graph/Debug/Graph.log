@@ -1,0 +1,48 @@
+﻿Build started 19/01/2015 18:36:00.
+     1>Project "C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Graph\Graph.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\lab422\documents\visual studio 2012\projects\graph\graph\main.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lab422\documents\visual studio 2012\projects\graph\graph\main.cpp(147): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lab422\documents\visual studio 2012\projects\graph\graph\main.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\lab422\documents\visual studio 2012\projects\graph\graph\graphnode.h(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\lab422\documents\visual studio 2012\projects\graph\graph\graphnode.h(82) : while compiling class template member function 'sf::Vector2f GraphNode<NodeType,ArcType>::getPosition(void)'
+                 with
+                 [
+                     NodeType=std::pair<std::string,int>,
+                     ArcType=int
+                 ]
+                 c:\users\lab422\documents\visual studio 2012\projects\graph\graph\main.cpp(113) : see reference to function template instantiation 'sf::Vector2f GraphNode<NodeType,ArcType>::getPosition(void)' being compiled
+                 with
+                 [
+                     NodeType=std::pair<std::string,int>,
+                     ArcType=int
+                 ]
+                 c:\users\lab422\documents\visual studio 2012\projects\graph\graph\main.cpp(37) : see reference to class template instantiation 'GraphNode<NodeType,ArcType>' being compiled
+                 with
+                 [
+                     NodeType=std::pair<std::string,int>,
+                     ArcType=int
+                 ]
+     1>c:\users\lab422\documents\visual studio 2012\projects\graph\graph\graphnode.h(80): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\lab422\documents\visual studio 2012\projects\graph\graph\graphnode.h(80) : while compiling class template member function 'void GraphNode<NodeType,ArcType>::setPosition(int,int)'
+                 with
+                 [
+                     NodeType=std::pair<std::string,int>,
+                     ArcType=int
+                 ]
+                 c:\users\lab422\documents\visual studio 2012\projects\graph\graph\graph.h(208) : see reference to function template instantiation 'void GraphNode<NodeType,ArcType>::setPosition(int,int)' being compiled
+                 with
+                 [
+                     NodeType=std::pair<std::string,int>,
+                     ArcType=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Debug\Graph.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Debug\Graph.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Debug\Graph.lib" /MACHINE:X86 Debug\main.obj
+         Graph.vcxproj -> C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Debug\Graph.exe
+     1>Done Building Project "C:\Users\lab422\Documents\Visual Studio 2012\Projects\Graph\Graph\Graph.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
